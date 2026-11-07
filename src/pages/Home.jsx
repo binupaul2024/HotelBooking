@@ -1,3 +1,4 @@
+import ExclusiveOffers from "../components/ExclusiveOffers";
 import FeatureDestination from "../components/FeatureDestination";
 import Hero from "../components/Hero";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <>
       <Hero />
       <FeatureDestination />
+      <ExclusiveOffers></ExclusiveOffers>
     </>
   );
 };
