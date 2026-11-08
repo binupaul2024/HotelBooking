@@ -1,4 +1,5 @@
-const Star = ({ filled }) => {
+const Star = ({ filled = "5" }) => {
+  console.log("Filled", filled);
   return (
     <svg
       className="w-4 h-4 text-yellow-400"
